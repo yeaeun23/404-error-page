@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <link rel="stylesheet" href="./index.css" />
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>404 Page</title>
+    <title>404 Error Page</title>
   </head>
   <body>
     <svg id="ufo-image" viewBox="0 0 2303 1630" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +245,7 @@
   </body>
 
   <script>
-    // 나타나는 이벤트
+    // 숫자, 빔 나타나는 이벤트
     const setZeroAndBeamAppear = () => {
       document
         .getElementById("number-0-soaking")
@@ -256,7 +257,7 @@
       document.getElementById("number-0").addEventListener("animationend", setZeroAndBeamDisapper);
     };
 
-    // 사라지는 이벤트
+    // 숫자, 빔 사라지는 이벤트
     const setZeroAndBeamDisapper = () => {
       document
         .getElementById("number-0")
